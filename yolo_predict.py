@@ -9,7 +9,7 @@ base_path = os.path.dirname(os.path.abspath(__file__))
 ruta_completa = os.path.join(base_path, "img", "1.jpg")
 
 # Cargar modelo
-model = YOLO("yolo26n.pt")
+model = YOLO("best.pt")
 
 # Leer imagen
 img = cv2.imread(ruta_completa)
